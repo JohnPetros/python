@@ -20,6 +20,3 @@ print(5 % 2)
 
 # Exponatiation -> **
 print(8 ** 2)
-
-#  -> **
-print(8 ** 2)
