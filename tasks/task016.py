@@ -1,11 +1,8 @@
-# Task 16 - Write a script that reads the widths of the opposite and adjacent sides of a right-angled triangle, calculates, and displays the width of the hypotenuse.
+# Task 15 - Write a script that reads any float number and displays its integer part
 
-from math import pow, sqrt
+from math import trunc
 
-oppositeSide = float(input('The width of the opposite side: '))
-adjacentSide = float(input('The width of the adjacent side: '))
+value = float(input('Type a float value: '))
 
-hypotenuse = sqrt(pow(oppositeSide, 2) + pow(adjacentSide, 2))
-
-print(f'The hypotenuse is equal to {hypotenuse:.2f}')
+print(f'The value entered was {value} and its integer part is {trunc(value)}')
 

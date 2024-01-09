@@ -1,15 +1,11 @@
-# Task 17 - Write a script that reads any angle and displays the value on its sine, cosine and tangent
+# Task 16 - Write a script that reads the widths of the opposite and adjacent sides of a right-angled triangle, calculates, and displays the width of the hypotenuse.
 
-from math import sin, cos, tan, radians
+from math import pow, sqrt
 
-angle = float(input('Enter a angle: '))
+oppositeSide = float(input('The width of the opposite side: '))
+adjacentSide = float(input('The width of the adjacent side: '))
 
-angleInradians = radians(angle)
+hypotenuse = sqrt(pow(oppositeSide, 2) + pow(adjacentSide, 2))
 
-sine = sin(angleInradians)
-cosine = cos(angleInradians)
-tangent = tan(angleInradians)
+print(f'The hypotenuse is equal to {hypotenuse:.2f}')
 
-print(f'The sine is equal to {sine:.2f}')
-print(f'The cosine is equal to {cosine:.2f}')
-print(f'The tangent is equal to {tangent:.2f}')

@@ -1,9 +1,8 @@
-# Task 14 - Write a script that asks the amount of Km by a rented car and the amount of days for which it was rentaled. Calculate the price to pay, considering the car costs $60.00 per day and $0.15 per km driven
+# Task 14 - Write a script that reads a salary of an employee and displays their new salary with a 15% increase
 
-days = float(input('How much days the car was rented for: '))
-kms = float(input('How much Km was driven by the car: '))
+salary = float(input('What the salary of the employee: '))
 
-total = days * 60 + (kms * 0.15)
+newSalary = salary * 1.15
 
-print(f'The total to pay is equal to ${total :.2f}, ')
+print(f'An employee who earned ${salary} will end up to earn ${newSalary:.2f}')
 
