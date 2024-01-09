@@ -1,5 +1,4 @@
-# Task 18 - The same teacher from the previous task wants to randomly select the presentation order of the students' projects. Write a script that reads the names of the four students and displays the randomly chosen order.
-
+# Task 21 - Write a script that opens and plays the audio from an MP3 file.
 
 import pygame
 
