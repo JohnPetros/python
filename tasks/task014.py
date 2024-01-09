@@ -4,5 +4,5 @@ salary = float(input('What the salary of the employee: '))
 
 newSalary = salary * 1.15
 
-print(f'An employee who earned ${salary} will end up to earn ${newSalary:.2f}')
+print(f'An employee who used to earn ${salary} will end up earning ${newSalary:.2f}')
 
