@@ -1,4 +1,4 @@
-# Task 8 - Write a script that reads .
+# Task 8 - Write a script that reads a value in meters and displays it converted to centimeters and milimeters.
 
 m = int(input('Write a distance in meters: '))
 
