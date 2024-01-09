@@ -2,4 +2,4 @@
 
 reais = float(input('How much do you have in your wallet in reais?: '))
 
-print('With {} you can convert to {}'.format(reais, reais * 4.88))
+print(f'With {reais} you can convert to {reais * 4.88}')
