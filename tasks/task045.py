@@ -1,6 +1,7 @@
 # Task 45 - Write a script that makes the computer play Jokenpo with you
 
 from time import sleep
+
 from random import randint
 
 print(
