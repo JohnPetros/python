@@ -1,4 +1,4 @@
-# Task 18 - A teacher wants to randomly select one of his four students to clean the blackboard. Write a script that helps him by reading their names and displaying the chosen student's name
+# Task 19 - A teacher wants to randomly select one of his four students to clean the blackboard. Write a script that helps him by reading their names and displaying the chosen student's name
 
 from random import choice
 

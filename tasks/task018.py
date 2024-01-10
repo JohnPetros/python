@@ -1,4 +1,4 @@
-# Task 17 - Write a script that reads any angle and displays the value on its sine, cosine and tangent
+# Task 18 - Write a script that reads any angle and displays the value on its sine, cosine and tangent
 
 from math import sin, cos, tan, radians
 

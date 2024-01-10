@@ -1,4 +1,4 @@
-# Task 18 - The same teacher from the previous task wants to randomly select the presentation order of the students' projects. Write a script that reads the names of the four students and displays the randomly chosen order.
+# Task 20 - The same teacher from the previous task wants to randomly select the presentation order of the students' projects. Write a script that reads the names of the four students and displays the randomly chosen order.
 
 from random import shuffle
 

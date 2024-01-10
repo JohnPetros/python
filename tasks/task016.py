@@ -1,4 +1,4 @@
-# Task 15 - Write a script that reads any float number and displays its integer part
+# Task 16 - Write a script that reads any float number and displays its integer part
 
 from math import trunc
 
