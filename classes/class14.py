@@ -1,29 +1,29 @@
 # Class 14 - Functions (Part 1)
-def showLine():
+def show_line():
     print("-" * 30)
 
 
-def showMessage(message):
+def show_message(message):
     print(message)
 
 
-def sumNumbers(a, b):
+def sum_numbers(a, b):
     print(f"A = {a} and B = {b}")
     result = a + b
     print(f"The sum is equal to {result}")
 
 
-def countNumbers(*numbers):
+def count_numbers(*numbers):
     for number in numbers:
         print(number)
     print("end")
 
 
-showLine()
-showMessage("Example of message")
-showLine()
+show_line()
+show_message("Example of message")
+show_line()
 
-sumNumbers(5, 7)
-sumNumbers(b=4, a=1)
+sum_numbers(5, 7)
+sum_numbers(b=4, a=1)
 
-countNumbers(1, 2, 3, 4, 5)
+count_numbers(1, 2, 3, 4, 5)
